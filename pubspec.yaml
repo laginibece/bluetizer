@@ -1,0 +1,24 @@
+name: bluetizer
+description: Bluetooth plugin for Flutter
+version: 0.4.1
+author: Lagin Ibece <laginibece@rsvhr.com>
+homepage: https://github.com/laginibece/bluetizer
+
+flutter:
+  plugin:
+    androidPackage: rsvhr.laginibece.bluetizer
+    pluginClass: BluetizerPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+  convert: '^2.0.2'
+  protobuf: '^0.9.1'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+environment:
+  sdk: '>=2.0.0-dev.28.0 <3.0.0'
+  flutter: '>=0.2.4 <2.0.0'

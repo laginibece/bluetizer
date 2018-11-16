@@ -1,0 +1,11 @@
+name: bluetizer_example
+description: Demonstrates how to use the bluetizer plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bluetizer:
+    path: ../
+
+flutter:
+  uses-material-design: true
